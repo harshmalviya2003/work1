@@ -1,0 +1,70 @@
+/* Full-screen background with overlay styling */
+.main-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: url('../../../assets/Client-First - IMAGES/big frame image/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-left: 50px; /* Align text on the left side */
+  }
+  
+  /* Dark overlay to improve text readability on the image */
+  .main-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency */
+    z-index: 1;
+  }
+  
+  .content {
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .posted-in {
+    font-size: 2em;
+    color: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .posted-in span {
+    font-weight: bold;
+  }
+  
+  .content-title {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+  
+  .author, .description {
+    font-size: 1em;
+    color: #ccc;
+    margin: 10px 0;
+  }
+  
+  .read-more-button {
+    padding: 15px 30px;
+    background-color: #FFD050;
+    color: #1a1a2e;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .read-more-button:hover {
+    background-color: #FFD050;
+  }
+  

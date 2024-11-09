@@ -1,0 +1,28 @@
+.category{
+        
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+}
+.category h1{
+    text-align: center;
+}
+.c-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 10px;
+    padding:20px ;
+    width:300px;
+    border: 1px solid black;
+    height: 200px;
+    
+}
+.box:hover{
+    background-color:  #FFD050;
+    transition: all 1s;
+}

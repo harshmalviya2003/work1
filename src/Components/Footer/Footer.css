@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 500px;
+    padding: 50px 50px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0px 50px;
+
+}
+.up ul{
+    display: flex;
+    gap: 20px;
+}
+.up ul li{
+    list-style: none;
+    
+}
+
+.midd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    background-color: gray;
+}
+
+.midd input{
+    height: 40px;
+    width: 300px;
+}
+.midd button{
+    height: 40px;
+    width: 150px;
+    background-color: #FFD050;
+    border: none;
+}
+
+.down{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    padding-left: 30px;
+}

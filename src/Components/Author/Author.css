@@ -1,0 +1,105 @@
+/* Main Container */
+.author-blog {
+    
+    padding: 20px;
+    }
+    
+    /* Author Section */
+    .author-section {
+        max-width: 1300px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:gainsboro;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+    }
+    
+    .author-image {
+    width: 200px;
+    height: 200px;
+    border-radius:10px;
+    margin-right: 20px;
+    }
+    
+    .author-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    }
+    
+    .author-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    }
+    
+    .author-socials a {
+    color: #333;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    }
+    
+    .author-socials a:hover {
+    color: #6a1b9a;
+    }
+    
+    /* Divider */
+    .divider {
+    height: 5px;
+    background-image: linear-gradient(to right, #ffc107, #6a1b9a);
+    margin: 30px 0;
+    border-radius: 8px;
+    }
+    
+    .posts-section{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    /* Blog Posts Section */
+    .posts-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    }
+    
+    .post {
+    display: flex;
+    margin-bottom: 20px;
+    }
+    
+    .post-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    }
+    
+    .post-content {
+    text-align: left;
+    }
+    
+    .post-category {
+    font-size: 12px;
+    color: #6a1b9a;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    
+    .post-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 10px;
+    }
+    
+    .post-content p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    }
